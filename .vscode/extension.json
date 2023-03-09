@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "vscode-icons-team.vscode-icons",
+        "mgmcdermott.vscode-language-babel",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+    ]
+}
