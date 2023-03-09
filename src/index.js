@@ -1,10 +1,5 @@
-export * from './helpers'
-export const foo = 'test'
-export const boo = 'biz'
-
-const wrapped = {
-    foo,
-    boo,
-}
-
-export default wrapped
+export * from './neophyte/multiply-numbers'
+export * from './neophyte/combine-strings'
+export * from './neophyte/equals'
+export * from './neophyte/add-numbers'
+export * from './neophyte/subtract-numbers'

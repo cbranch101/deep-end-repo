@@ -11,5 +11,8 @@ module.exports = {
         sourceType: 'module',
     },
     plugins: ['jest'],
-    rules: {},
+    rules: {
+        'arrow-body-style': 'off',
+        'import/prefer-default-export': 'off',
+    },
 }

@@ -10,6 +10,7 @@
         "build": "parcel build",
         "test": "jest",
         "lint": "eslint 'src/**/**'",
+        "neophyte": "eslint 'src/neophyte/**' && npm run build && node scripts/confirm.js",
         "validate": "npm run lint && npm run test",
         "deploy": "npm run validate && npm run build && npm publish --access public"
     },
@@ -29,6 +30,8 @@
         "parcel": "^2.8.3"
     },
     "dependencies": {
+        "chalk": "^5.2.0",
+        "expect": "^29.5.0",
         "prettier": "^2.8.4"
     }
 }
